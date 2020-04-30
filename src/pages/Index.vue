@@ -119,7 +119,7 @@ export default {
     },
     async restart () {
       this.clean()
-      // await this.$nextTick()
+      await this.$nextTick()
       this.newGame()
     },
     choiceMade (choice) {
