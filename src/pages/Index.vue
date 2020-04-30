@@ -1,6 +1,6 @@
 <template>
   <q-page class="">
-      <current-word v-if="currentIndex" :word="mainData[currentIndex].word"/>
+      <current-word v-if="currentIndex || currentIndex === 0" :word="mainData[currentIndex].word"/>
 <div class="q-gutter-md row items-start q-px-sm">
             <q-img
             v-for="choice in choices"
