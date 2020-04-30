@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A Quasar Framework app",
   "productName": "Simple Reading Game",
-  "cordovaId": "org.cordova.quasar.simple-reading-game",
+  "cordovaId": "io.cordova.hellocordova",
   "capacitorId": "",
   "author": "Yishai Berg<ymb123@gmail.com>",
   "private": true,
